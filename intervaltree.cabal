@@ -1,0 +1,14 @@
+Name:		intervaltree
+Version:	0.1.0
+Cabal-Version:	>= 1.2
+Build-Type:	Simple
+Synopsis:	Tree to store continous adjacent intervals and associated data
+Description:
+  Simple interval tree library that allows to attach data (including functions)
+  to adjacent intervals of Ord
+Author:		Peter Penzin
+Maintainer:	peter@foo.bar
+library
+  Exposed-Modules: IntervalTree
+  Build-Depends: base
+
